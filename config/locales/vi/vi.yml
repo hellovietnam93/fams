@@ -1,0 +1,4 @@
+vi:
+  api:
+    missing_params: "Thiếu parameter"
+    invalid_token: "Mã token không hợp lệ"

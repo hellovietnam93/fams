@@ -1,0 +1,4 @@
+ja:
+  api:
+    missing_params: "Missing parameter"
+    invalid_token: "Invalid token"
