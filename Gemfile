@@ -15,9 +15,15 @@ gem "coffee-rails", "~> 4.2"
 gem "jquery-rails"
 gem "turbolinks", "~> 5"
 gem "jbuilder", "~> 2.5"
+gem "devise"
+gem "simple_token_authentication"
 
 group :development, :test do
   gem "pry"
+end
+
+group "development" do
+  gem "web-console", ">= 3.3.0"
 end
 
 group :development, :test do
@@ -40,7 +46,6 @@ group :development, :test do
   gem "scss_lint_reporter_checkstyle", require: false
   gem "spring"
   gem "spring-watcher-listen", "~> 2.0.0"
-  gem "web-console", ">= 3.3.0"
 end
 
 group :test do
